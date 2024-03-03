@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.first-part{
+    display: flex;
+    flex-direction: column;
+    height: 140vh;
+    background-image: url(./img/IMG-1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links{
+    display: flex ;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+a{
+    margin-right: 10px;
+    padding-left: 7px;
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;    
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 530px;
+    margin-left: 315px;
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.p1{
+    margin-top: 20px;
+    font-size: 16px;
+    width: 85%;
+}
+
+.learn{
+    margin-top: 40px;
+    padding: 15px 25px;
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.p-header{
+    color: aqua;
+    font-size: 16px;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+    height: 360vh;
+    background-image: url(./img/IMG-2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-content, .pic1 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-left: 180px;
+
+}
+.pic1 {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 70px;
+}
+
+.body-content{
+    width: 500px;
+    margin-top: 200px;
+}
+
+.img-3{
+    height: 80%;
+}
+
+.p2{
+    margin-top: 20px;
+    width: 90%;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.third-part{
+ 
+    margin-top: 50px;
+    text-align: center;
+    width: 100%
+}
+.explore{
+    margin-top: 15px;
+}
+
+.p3{
+    display: flex;
+    font-size: 16px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p3-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25px 40px 25px;
+}
+
+.food{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.f1 img , .f2 img, .f3 img{
+    width:80%;
+    margin-left: 15px;
+}
+
+.learn-1{
+    padding: 15px 25px;
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.p{
+    margin: 20px 7px 30px 7px;
+    font-size: 13px;
+}
+
+.fourth-part{
+    width: 80%;
+    margin:140px 20px 15px 15px ;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.img-7{
+    margin-left: 50px;
+    margin-right: 90px;
+    width: 40vw;
+    height: 60vh;
+}
+
+.p4{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.testimonial{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.h5{
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+.p-5{
+    margin-top: 25px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.p6{
+    padding: 20px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.footer-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 90px;
+    margin-top: 30px;
+}
